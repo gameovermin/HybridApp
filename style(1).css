@@ -1,0 +1,129 @@
+            @charset "UTF-8";
+            /* CSS Document */
+            body, ul, li
+            {
+                margin: 0;
+                padding: 0;
+                list-style:none;
+            }
+            body
+            {
+                background: url(pattern_gray.png);
+            }
+            a
+            {
+                color: inherit; 
+                text-decoration: inherit;
+            }
+            .menu-1
+            {
+                text-align: center;
+                z-index: 1;
+                background-color: rgb(129, 115, 156);
+            }
+            .menu-1 > ul
+            {
+                background-color: #dfdfdf; 
+                color:black; 
+                display: inline-block;
+                padding: 0 10px; 
+                border-radius: 5px;
+            }
+            .menu-1 ul
+            {
+                background-color: #dfdfdf;
+            }
+            .menu-1 > ul > li
+            {
+                display: inline-block;
+            }
+            .menu-1  li > a
+            {
+                padding: 10px; 
+                display: block;
+            }
+            .menu-1  li:hover > a
+            {
+                background-color: black; 
+                color:white;
+            }
+            .menu-1 li
+            {
+                position: relative;
+                transition: all 0.4;
+            }
+            .menu-1 ul ul
+            {
+                display: none; 
+                position: absolute; 
+                top: 100%; 
+                left: 0;
+            }
+            .menu-1 li:hover > ul
+            {
+                display: block;
+            }
+            header
+            {
+                width:1000px;
+                height: 80px;
+                margin:0 auto;
+                padding:10px 0;
+            }
+            #logo
+            {
+                float: left;
+            }
+            #national
+            {
+                float: right;
+            }
+            nav
+            {
+                width:1000px;
+                margin:0 auto;
+                color: #FFF;
+                padding:10px 0;
+                text-align: center;
+            }
+            .menu-1 > li :after
+            {
+                clear: both;
+            }
+            #visual_m
+            {
+                width:1000px;
+                height:400px;
+                margin:0 auto;
+                background: rgb(209, 209, 209);
+                color: #000;
+                padding:10px 0;
+                text-align: center;
+
+            }
+            #imgs
+            {
+                width: 250px;
+                height: 250px;
+                position: absolute;
+            }
+            p
+            {
+                position: relative;
+                text-align: right;
+                font: 1.0em "맑은고딕";
+            }
+            /*
+            밑부분
+            */
+
+            footer
+            {
+                width:1000px;
+                margin:0 auto;
+                background:rgb(128, 120, 155);
+                padding:10px 0;
+            }
+            /*===================================*/
+
+
